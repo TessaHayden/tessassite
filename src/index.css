@@ -1,5 +1,6 @@
 :root {
   --primary: #ddd;
+  --header: rgb(57, 30, 59); 
 }
 
 body {
