@@ -5,11 +5,16 @@ import '../css/header.css';
 const Header = () => {
   return (
     <div className="header-div">
-      <img
+            <ul>
+        <li>Home</li>
+        <li>Skills</li>
+        <li>Gallery</li>
+      </ul><img
         id="navbanner"
         src={NavbarBanner.ImageBanner}
         alt="banner"
       />
+
     </div>
   );
 };

@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Navbar, NavbarBrand } from "reactstrap";
 import Logo from "../src/assets/logo.svg";
 import Header from "../src/components/Header";
-import HomeCard from "../src/features/home/HomeCard";
-import { MEE } from "../src/shared/MEE";
 import Footer from "./components/Footer";
+import HomePage from './pages/HomePage';
 import "./App.css";
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
           </Container>
         </Navbar>
         <Header />
-        <HomeCard mee={MEE[0]} />
+        <HomePage />
         <Footer/>
       </div>
     </div>
