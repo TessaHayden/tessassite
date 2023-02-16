@@ -4,6 +4,7 @@ import Logo from "../src/assets/logo.svg";
 import Header from "../src/components/Header";
 import Footer from "./components/Footer";
 import HomePage from './pages/HomePage';
+import SkillsCards from '../src/features/home/SkillsCards';
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         </Navbar>
         <Header />
         <HomePage />
+        <SkillsCards />
         <Footer/>
       </div>
     </div>

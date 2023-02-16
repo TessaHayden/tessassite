@@ -1,6 +1,6 @@
-import hatto from '../assets/hattodesu.svg';
-import recordplayer from '../assets/record-player.jpg';
-import musicplayer from '../assets/music-player.jpg';
+import hatto from '../../assets/hattodesu.svg';
+import recordplayer from "../../assets/record-player.jpg";
+import musicplayer from '../../assets/music-player.jpg';
 
 
 export const SKILLS = [

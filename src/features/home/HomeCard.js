@@ -3,14 +3,14 @@ import { Card, CardImg, CardTitle } from "reactstrap";
 import MeeDrawing from '../../assets/mee-drawing.svg';
 import "../../css/homecard.css";
 
-const HomeCard = () => {
-  
-  
+const HomeCard = ({ mee }) => {
+  const { image, name, goals } = mee;
 
   return (
-    <Card className="mee-card">
-      <CardImg width='100%' src={MeeDrawing} alt='Tessa' />
-      <CardTitle>Goal</CardTitle>
+    // probably cleanup CSS 
+    <Card className="mee-card" style={{ width: '20rem' }}>
+      <CardImg width='100%' src={mee.image} alt={mee.goals} />
+      <CardTitle>{mee.goals}</CardTitle>
     </Card>
   );
 };
