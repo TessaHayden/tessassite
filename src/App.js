@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import HomePage from './pages/HomePage';
 import SkillsCards from '../src/features/home/SkillsCards';
 import "./App.css";
+import SkillsDirectoryPage from "./pages/SkillsDirectoryPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Header />
         <HomePage />
         <SkillsCards />
+        <SkillsDirectoryPage />
         <Footer/>
       </div>
     </div>
