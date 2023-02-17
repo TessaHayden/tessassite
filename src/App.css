@@ -3,8 +3,10 @@ body {
   background-image: url('../src/assets/wallpaperbackground.svg');
   background-size: cover;
   background-repeat: repeat-y;
+  margin-bottom: 40rem;
   
 }
+
 
 h1,
 h2,
