@@ -3,10 +3,9 @@ body {
   background-image: url('../src/assets/wallpaperbackground.svg');
   background-size: cover;
   background-repeat: repeat-y;
-  margin-bottom: 40rem;
+  margin-bottom: 20%;
   
 }
-
 
 h1,
 h2,
@@ -36,11 +35,16 @@ h2 {
 }
 
 .navbar {
-  background-color: var(--header);
+  /* background-image: url('../src/assets/navbar-banner.svg');
+  background-repeat: no-repeat;
+  background-size: 85%; */
+  padding-bottom: 1%;
+  margin-bottom: 3rem;
+  min-height: 19rem;
 }
 
 .navbar-brand {
-  max-width: 4rem;
+  max-width: 5rem;
   margin-right: 2rem;
 }
 
@@ -52,10 +56,9 @@ h2 {
 }
 
 .navbar-dark {
-  background-color: #901cad;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  background-image: linear-gradient(to right, #803a94, #ee68de,#b91fa7, #510e5a);
   margin-bottom: 2rem;
-  min-height: 8rem;
+  min-height: 6rem;
 }
 
 .page-enter {
